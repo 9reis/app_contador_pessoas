@@ -42,19 +42,29 @@ class HomePage extends StatelessWidget {
               fontWeight: FontWeight.w700,
             ),
           ),
-          const Text(
-            "0",
-            style: TextStyle(
-              fontSize: 100,
-              color: Colors.white,
+          const Padding(
+            padding: EdgeInsets.all(30),
+            child: Text(
+              "0",
+              style: TextStyle(
+                fontSize: 100,
+                color: Colors.white,
+              ),
             ),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  fixedSize: const Size(100, 100),
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16)),
+                ),
                 onPressed: decrement,
-                child: Text(
+                child: const Text(
                   "Saiu",
                   style: TextStyle(
                     color: Colors.black,
@@ -62,9 +72,17 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(width: 30),
               TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  fixedSize: const Size(100, 100),
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16)),
+                ),
                 onPressed: increment,
-                child: Text(
+                child: const Text(
                   "Entrou",
                   style: TextStyle(
                     color: Colors.black,
