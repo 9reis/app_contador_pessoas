@@ -61,7 +61,6 @@ class _HomePageState extends State<HomePage> {
               style: TextStyle(
                 fontSize: 30,
                 color: isFull ? Colors.red : Colors.white,
-                backgroundColor: Colors.black,
                 fontWeight: FontWeight.w700,
               ),
             ),
