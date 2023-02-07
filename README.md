@@ -1,16 +1,17 @@
 # app_contador_pessoas
+<br>
+:x: App em Flutter para controle para acesso de pessoas em locais onde não é permitido aglomeração, ferramente muito util no periodo da pandemia.
+<br><br>
 
-A new Flutter project.
+<b> :wrench: Utilizando : </b>
+<br>
+:large_orange_diamond: Row e Column <br>
+:large_orange_diamond: Estados <br>
+:large_orange_diamond: Stateless e Stateful <br>
+:large_orange_diamond: Botão <br>
+:large_orange_diamond: Texto <br>
+:large_orange_diamond: Renderização com base em condicionais <br>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/106397008/217131987-c8a3a1af-de3e-4113-8357-7bbba402e2ed.mp4
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
